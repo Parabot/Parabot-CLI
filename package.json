@@ -1,6 +1,6 @@
 {
   "name": "parabot-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CLI for Parabot, to control all kind of things",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Parabot/Parabot-CLI#readme",
   "bin": {
     "parabot": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "download-file": "^0.1.5"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "parabot-cli",
+  "version": "1.0.0",
+  "description": "CLI for Parabot, to control all kind of things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parabot/Parabot-CLI.git"
+  },
+  "author": "JKetelaar <jeroen@ketelaar.me>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Parabot/Parabot-CLI/issues"
+  },
+  "homepage": "https://github.com/Parabot/Parabot-CLI#readme",
+  "bin": {
+    "parabot": "./index.js"
+  }
+}

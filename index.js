@@ -13,9 +13,13 @@ program
     .action(function (command) {
         switch (command) {
             case "start":
+                console.log("Downloading Parabot");
+
                 var file = fs.createWriteStream("Parabot.jar");
                 var request = http.get("http://v3.bdn.parabot.org/api/bot/download/client", function (response) {
                     response.pipe(file);
+
+                    console.log("Downloaded Parabot");
                 });
                 break;
             case "init":
